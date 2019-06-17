@@ -1,0 +1,41 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Glass+Antiqua|Griffy&display=swap');
+/* div CSS */
+/* .bt {.bt는 크래스
+	margin: 10px auto; 위아래 좌우 , auto : 늘려도 항상 고정 !!
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
+	background: gray;
+	padding: 50px;
+}
+ */
+ 
+
+
+ 
+.bt>a {
+	font-family: 'Fredoka One', cursive;
+	font-weight: bold;
+	line-height:20px; /* 글자의높이와 height 높이를 동일 하게맞춰주어야함 !! */
+	opacity: 0.9;
+	display: block;
+	width: 80px;
+	height: 20px;
+	/* inline을 block으로바꿈,inline은 배치 하기가 어려움  */
+	border: 10px solid black;
+	border-radius:30px;
+    margin: 10px 20px auto;
+    background: black;
+	box-shadow:5px 5px 5px black;
+	color: white;
+	 
+	
+}
+div >a:hover{
+	opacity:0.5;
+	background:white;
+	color:black;
+	border: 2px solid black;/* 마우스 가져가면 틀의 색이 pink로 */
+
+}
